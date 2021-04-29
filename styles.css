@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    background: url('img/pp.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.avatar{
+    width: 30%;
+    z-index: 1;
+    margin-top: -21%;
+    margin-left: 35%;
+}
+.wrapper{
+  border: 2px solid #ccc;
+  padding: 30px;
+  background-color: antiquewhite;
+  width: 374px;
+  border-radius: 30px;
+  position: fixed;
+}
+.form-control {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    outline: auto;
+    background: none;
+    font-family: cursive;
+    font-weight: 700;
+    font-family: system-ui;
+}
+  input[type="submit"] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
+  label{
+    font-family: fantasy;
+    font-size: 20px;
+  }
+  h2{
+    font-family:fantasy;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -3%;
+  }
+.b{
+    width: 22%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    font-weight: 700;
+    font-size: 18px;
+    float: right;
+}
+.b:hover {
+    background-color: black;
+    color: white;
+}
+.verification{
+    font-family: system-ui;
+    font-weight: 900;
+}
+
+
+  
+  
+  
